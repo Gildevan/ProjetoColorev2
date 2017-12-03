@@ -13,6 +13,19 @@ public class ColoreGM : MonoBehaviour {
 	public bool gameOver = false;
 	public int Score = 0;
 
+	void Awake(){
+		if (instance == null) {
+			instance = this;
+
+		}
+
+		else if (instance != null) 
+		{
+
+			Destroy (gameObject);
+		}
+			
+	}
 	
 	// Update is called once per frame
 	void Update () {
