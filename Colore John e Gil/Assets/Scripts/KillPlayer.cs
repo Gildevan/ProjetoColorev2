@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class KillPlayer : MonoBehaviour {
 
+	public GameObject player;
 
 	void OnTriggerEnter(Collider other){
-		if (other.CompareTag ("Player")) {
-			other.gameObject.SetActive (false);
+		if (other.CompareTag ("Enemies")) {
+			other.gameObject.SetActive (true);
+			player.gameObject.SetActive (false);
 			ColoreGM.instance.BallDied ();
 		}
 	
