@@ -10,6 +10,7 @@ public class ColoreGM : MonoBehaviour {
 	public static ColoreGM instance;
 	public GameObject restartButton;
 	public GameObject gameOverText;
+	public GameObject quitButton;
 	public bool gameOver = false;
 	public int Score = 0;
 
@@ -32,6 +33,7 @@ public class ColoreGM : MonoBehaviour {
 		
 		if (gameOver == true) {
 			restartButton.SetActive (true);
+			quitButton.SetActive (true);
 		}
 
 	}
