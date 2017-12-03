@@ -12,13 +12,25 @@ public class ColoreGM : MonoBehaviour {
 	public GameObject gameOverText;
 	public bool gameOver = false;
 	public int Score = 0;
+	public GameObject quitButton;
 
-	
+	void Awake ()
+	{
+		if (instance != this) {
+			Destroy (instance);
+		}
+
+		if (instance == null) {
+			instance = this;
+		}
+	}
+
 	// Update is called once per frame
 	void Update () {
 		
 		if (gameOver == true) {
 			restartButton.SetActive (true);
+			quitButton.gameObject.SetActive (true);
 		}
 
 	}
