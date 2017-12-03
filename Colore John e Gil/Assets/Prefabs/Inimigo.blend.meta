@@ -1,19 +1,27 @@
 fileFormatVersion: 2
-guid: fadddc63520db414bbc9126cbf4743ad
+guid: 076fc233fe7163c42b1097db44e9ac89
+timeCreated: 1512321609
+licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: floor_prototype_64x1x64
-    4300002: FloorPrototype64x01x64
-    6400000: //RootNode
+    100000: Icosphere
+    100002: //RootNode
+    100004: Sphere
+    400000: Icosphere
+    400002: //RootNode
+    400004: Sphere
+    2300000: Icosphere
+    2300002: Sphere
+    3300000: Icosphere
+    3300002: Sphere
+    4300000: Sphere
+    4300002: Icosphere
+    7400000: Default Take
     9500000: //RootNode
   materials:
     importMaterials: 1
-    materialName: 1
+    materialName: 0
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
@@ -37,13 +45,13 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.5
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
-    useFileUnits: 0
+    useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
@@ -51,11 +59,11 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
+    tangentImportMode: 3
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -73,9 +81,9 @@ ModelImporter:
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
-    skeletonHasParents: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
