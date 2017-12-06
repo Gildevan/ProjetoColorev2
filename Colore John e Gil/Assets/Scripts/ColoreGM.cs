@@ -36,7 +36,6 @@ public class ColoreGM : MonoBehaviour {
 	}
 
 	public void BallDied(){
-		
 		gameOverText.SetActive (true);
 		gameOver = true;
 	}
