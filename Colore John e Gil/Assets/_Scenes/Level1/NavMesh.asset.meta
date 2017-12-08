@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 guid: a8e3ce7cbc2953b4384c98d5d0a44d67
+<<<<<<< HEAD
 timeCreated: 1512532032
+=======
+timeCreated: 1512533066
+>>>>>>> parent of 8945708... Merge branch 'master' of https://github.com/Gildevan/ProjetoColorev2
 licenseType: Free
 NativeFormatImporter:
   mainObjectFileID: 23800000

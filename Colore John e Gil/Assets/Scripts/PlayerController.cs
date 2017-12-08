@@ -39,9 +39,14 @@ public class PlayerController : MonoBehaviour {
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
 
-
-		Vector3 moviment = new Vector3 (moveHorizontal, 0, moveVertical) * playerVelocity;
+		Vector3 m = new Vector3 (0f, 0f, (Camera.main.transform.position.z - transform.position.z) * -moveVertical);
+		Vector3 moviment = m * playerVelocity;
 		rb.AddForce (moviment);
+		if (moveHorizontal != 0f) {
+			Camera.main.transform.RotateAround (transform.position, Vector3.up, moveHorizontal);
+			Vector3 directionCamera = Camera.main.transform.position - transform.position;
+			Camera.main.GetComponent<ThirdPersonCamera>().position = new Vector3 (directionCamera.x * Mathf.Sin (Camera.main.transform.eulerAngles.y), 5f, directionCamera.z * Mathf.Cos (Camera.main.transform.eulerAngles.y)); 
+		}
 	}
 
 	private bool destroy = false;
