@@ -20,6 +20,20 @@ ModelImporter:
     100024: Sphere_011
     100026: Sphere_012
     100028: Sphere_013
+    100030: SphereAmarelo1
+    100032: SphereAmarelo2
+    100034: SphereAzul1
+    100036: SphereAzul2
+    100038: SphereCobertura
+    100040: SphereIndigo1
+    100042: SphereIndigo2
+    100044: SphereInteriorVermelho
+    100046: SphereLaranja1
+    100048: SphereLaranja2
+    100050: SphereVerde1
+    100052: SphereVerde2
+    100054: SphereVioleta1
+    100056: SphereVioleta2
     400000: //RootNode
     400002: Sphere
     400004: Sphere_001
@@ -35,6 +49,20 @@ ModelImporter:
     400024: Sphere_011
     400026: Sphere_012
     400028: Sphere_013
+    400030: SphereAmarelo1
+    400032: SphereAmarelo2
+    400034: SphereAzul1
+    400036: SphereAzul2
+    400038: SphereCobertura
+    400040: SphereIndigo1
+    400042: SphereIndigo2
+    400044: SphereInteriorVermelho
+    400046: SphereLaranja1
+    400048: SphereLaranja2
+    400050: SphereVerde1
+    400052: SphereVerde2
+    400054: SphereVioleta1
+    400056: SphereVioleta2
     2300000: Sphere
     2300002: Sphere_001
     2300004: Sphere_002
@@ -49,6 +77,20 @@ ModelImporter:
     2300022: Sphere_011
     2300024: Sphere_012
     2300026: Sphere_013
+    2300028: SphereAmarelo1
+    2300030: SphereAmarelo2
+    2300032: SphereAzul1
+    2300034: SphereAzul2
+    2300036: SphereCobertura
+    2300038: SphereIndigo1
+    2300040: SphereIndigo2
+    2300042: SphereInteriorVermelho
+    2300044: SphereLaranja1
+    2300046: SphereLaranja2
+    2300048: SphereVerde1
+    2300050: SphereVerde2
+    2300052: SphereVioleta1
+    2300054: SphereVioleta2
     3300000: Sphere
     3300002: Sphere_001
     3300004: Sphere_002
@@ -63,6 +105,20 @@ ModelImporter:
     3300022: Sphere_011
     3300024: Sphere_012
     3300026: Sphere_013
+    3300028: SphereAmarelo1
+    3300030: SphereAmarelo2
+    3300032: SphereAzul1
+    3300034: SphereAzul2
+    3300036: SphereCobertura
+    3300038: SphereIndigo1
+    3300040: SphereIndigo2
+    3300042: SphereInteriorVermelho
+    3300044: SphereLaranja1
+    3300046: SphereLaranja2
+    3300048: SphereVerde1
+    3300050: SphereVerde2
+    3300052: SphereVioleta1
+    3300054: SphereVioleta2
     4300000: Sphere_003
     4300002: Sphere_010
     4300004: Sphere_004
@@ -77,6 +133,20 @@ ModelImporter:
     4300022: Sphere_005
     4300024: Sphere_012
     4300026: Sphere_013
+    4300028: SphereAmarelo1
+    4300030: SphereAmarelo2
+    4300032: SphereVerde1
+    4300034: SphereVerde2
+    4300036: SphereIndigo2
+    4300038: SphereIndigo1
+    4300040: SphereAzul2
+    4300042: SphereAzul1
+    4300044: SphereLaranja2
+    4300046: SphereLaranja1
+    4300048: SphereVioleta2
+    4300050: SphereVioleta1
+    4300052: SphereInteriorVermelho
+    4300054: SphereCobertura
     7400000: Default Take
     9500000: //RootNode
   materials:

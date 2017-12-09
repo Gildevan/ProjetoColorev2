@@ -14,6 +14,8 @@ public class ColoreGM : MonoBehaviour {
 	public int Score = 0;
 	public GameObject quitButton;
 
+	public GameObject turnOnHalo;
+
 	void Awake ()
 	{
 		if (instance != this) {
@@ -23,6 +25,7 @@ public class ColoreGM : MonoBehaviour {
 		if (instance == null) {
 			instance = this;
 		}
+		turnOnHalo.SetActive (false);
 	}
 
 	// Update is called once per frame
@@ -38,5 +41,10 @@ public class ColoreGM : MonoBehaviour {
 	public void BallDied(){
 		gameOverText.SetActive (true);
 		gameOver = true;
+	}
+
+	public void AtivarHalo(){
+	
+		turnOnHalo.SetActive(true);
 	}
 }
