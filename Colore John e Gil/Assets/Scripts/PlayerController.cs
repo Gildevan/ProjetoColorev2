@@ -51,9 +51,6 @@ public class PlayerController : MonoBehaviour {
 
 
 		}
-		if(other.gameObject.CompareTag("GoldPickUp")){
-			ColoreGM.instance.GoldenPoints ();
-			other.gameObject.SetActive (false);
-		}
+	
 	}
 }

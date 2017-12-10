@@ -17,10 +17,13 @@ public class ColoreGM : MonoBehaviour {
 	public Text scoreText;
 	public int points = 0;
 	public GameObject gameOverImage;
+	public Text totalScoreText;
+	public Text decreaseHealthtxt;
+	public int healthPoints = 3;
+
 
 	private TransparenceDinamic transDynamicscript;
 	private Transparence transScript;
-
 
 
 	void Awake ()
@@ -35,21 +38,26 @@ public class ColoreGM : MonoBehaviour {
 	}
 
 	void Start(){
+		
 	}
 
 
 
 	void Update () {
 
-		if (gameOver == true) {
-			restartButton.SetActive (true);
-			quitButton.gameObject.SetActive (true);
-			gameOverImage.SetActive (true);
-		}
 
 	}
 
 	public void BallDied(){
+		
+			restartButton.SetActive (true);
+			quitButton.gameObject.SetActive (true);
+			gameOverImage.SetActive (true);
+		totalScoreText.enabled = true;
+		scoreText.enabled = false;
+		decreaseHealthtxt.enabled = false;
+
+
 		gameOverText.SetActive (true);
 		gameOver = true;
 	
@@ -57,10 +65,12 @@ public class ColoreGM : MonoBehaviour {
 
 	public void BallScored(){
 			points = points + 10;
+		totalScoreText.text = "Total Score: " + points.ToString();
 		scoreText.text = "Score: " +  points.ToString ();
 		}
-
-	public void GoldenPoints(){
-		scoreText.text = "Score: " + points.ToString ();
+		
+	public void DecreaseHealth(){
+		healthPoints = healthPoints -1;
+		decreaseHealthtxt.text = "Health x " + healthPoints.ToString ();
 	}
 }
