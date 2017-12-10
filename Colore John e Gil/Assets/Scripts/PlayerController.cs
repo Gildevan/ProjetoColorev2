@@ -11,6 +11,9 @@ public class PlayerController : MonoBehaviour {
 	public LayerMask groundLayer;
 	public SphereCollider spherecol;
 
+	[SerializeField]
+	public Material materials;
+
 
 
 
@@ -26,7 +29,6 @@ public class PlayerController : MonoBehaviour {
 
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
-
 
 		Vector3 moviment = new Vector3 (moveHorizontal, 0, moveVertical);
 		rb.AddForce (moviment* playerVelocity);
@@ -44,11 +46,9 @@ public class PlayerController : MonoBehaviour {
 		
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.CompareTag ("PickUp")) 
-		{
+		if (other.gameObject.CompareTag ("PickUp")) {
 			other.gameObject.SetActive (false);
 			ColoreGM.instance.BallScored ();
-
 		}
 		if(other.gameObject.CompareTag("GoldPickUp")){
 			ColoreGM.instance.GoldenPoints ();

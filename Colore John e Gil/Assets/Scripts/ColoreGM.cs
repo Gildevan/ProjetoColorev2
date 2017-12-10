@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-
 public class ColoreGM : MonoBehaviour {
 
 	public static ColoreGM instance;
@@ -23,6 +22,9 @@ public class ColoreGM : MonoBehaviour {
 	private TransparenceDinamic transDynamicscript;
 	private Transparence transScript;
 
+	[SerializeField]
+	public Material materials;
+
 
 	void Awake ()
 	{
@@ -34,9 +36,10 @@ public class ColoreGM : MonoBehaviour {
 			instance = this;
 		}
 	}
-		
 
-	// Update is called once per frame
+	void Start(){
+	}
+
 	void Update () {
 
 		if (gameOver == true) {
