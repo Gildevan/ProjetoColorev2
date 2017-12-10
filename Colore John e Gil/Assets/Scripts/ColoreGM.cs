@@ -16,14 +16,11 @@ public class ColoreGM : MonoBehaviour {
 	public GameObject quitButton;
 	public Text scoreText;
 	public int points = 0;
-	private int goldenPoints = 0;
 	public GameObject gameOverImage;
 
 	private TransparenceDinamic transDynamicscript;
 	private Transparence transScript;
 
-	[SerializeField]
-	public Material materials;
 
 
 	void Awake ()
@@ -39,6 +36,8 @@ public class ColoreGM : MonoBehaviour {
 
 	void Start(){
 	}
+
+
 
 	void Update () {
 
@@ -62,7 +61,6 @@ public class ColoreGM : MonoBehaviour {
 		}
 
 	public void GoldenPoints(){
-		goldenPoints = goldenPoints + 20;
-		scoreText.text = "Score: " + goldenPoints.ToString ();
+		scoreText.text = "Score: " + points.ToString ();
 	}
 }
