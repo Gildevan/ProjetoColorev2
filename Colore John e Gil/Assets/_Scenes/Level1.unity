@@ -407,7 +407,7 @@ GameObject:
   - component: {fileID: 42123580}
   m_Layer: 0
   m_Name: HiddenBumper
-  m_TagString: GoldPickUp
+  m_TagString: PickUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -2231,7 +2231,7 @@ Transform:
   m_GameObject: {fileID: 409109764}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -151.5, y: -11, z: -1.8}
-  m_LocalScale: {x: 255.00018, y: 15, z: 1.0000005}
+  m_LocalScale: {x: 255.00018, y: 9.921008, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 744806846}
   m_RootOrder: 3
@@ -4405,7 +4405,7 @@ Transform:
   m_GameObject: {fileID: 921801455}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 80.7, y: -11, z: -1.8}
-  m_LocalScale: {x: 255, y: 15, z: 1}
+  m_LocalScale: {x: 255, y: 8.950711, z: 1}
   m_Children: []
   m_Father: {fileID: 744806846}
   m_RootOrder: 2
@@ -4726,7 +4726,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004183362}
   m_LocalRotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.23, y: -12.9, z: 0}
+  m_LocalPosition: {x: -24.23, y: -13, z: 0}
   m_LocalScale: {x: 2.5995886, y: 1, z: 2.6601298}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6285,7 +6285,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 106.899994, y: -26.899994}
+  m_AnchoredPosition: {x: 106.900024, y: -26.899994}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1506679683
