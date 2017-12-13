@@ -38,6 +38,7 @@ public class ColoreGM : MonoBehaviour {
 	}
 
 	void Start(){
+		decreaseHealthtxt.enabled = true;
 		
 	}
 

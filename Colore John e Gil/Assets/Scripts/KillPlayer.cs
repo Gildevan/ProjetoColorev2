@@ -8,11 +8,10 @@ public class KillPlayer : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if (other.CompareTag ("Enemies")) {
-			other.gameObject.SetActive (true);
 			ColoreGM.instance.DecreaseHealth();
 		}
-		if (ColoreGM.instance.healthPoints <= 0) {
-			player.gameObject.SetActive (false);
+		if (ColoreGM.instance.healthPoints == 0) {
+			player.gameObject.SetActive (true);
 			ColoreGM.instance.BallDied ();
 		}
 
