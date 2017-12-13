@@ -18,8 +18,6 @@ public class ColoreGM : MonoBehaviour {
 	public int points = 0;
 	public GameObject gameOverImage;
 	public Text totalScoreText;
-	public Text decreaseHealthtxt;
-	public int healthPoints = 3;
 
 
 	private TransparenceDinamic transDynamicscript;
@@ -38,7 +36,6 @@ public class ColoreGM : MonoBehaviour {
 	}
 
 	void Start(){
-		decreaseHealthtxt.enabled = true;
 		
 	}
 
@@ -56,7 +53,6 @@ public class ColoreGM : MonoBehaviour {
 			gameOverImage.SetActive (true);
 		totalScoreText.enabled = true;
 		scoreText.enabled = false;
-		decreaseHealthtxt.enabled = false;
 
 
 		gameOverText.SetActive (true);
@@ -71,7 +67,5 @@ public class ColoreGM : MonoBehaviour {
 		}
 		
 	public void DecreaseHealth(){
-		healthPoints = healthPoints -1;
-		decreaseHealthtxt.text = "Health x " + healthPoints.ToString ();
 	}
 }
