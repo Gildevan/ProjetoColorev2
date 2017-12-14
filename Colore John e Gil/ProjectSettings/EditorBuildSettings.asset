@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Level1.unity
     guid: d081432b9e3497740a5fdb0d7bfea684
+  - enabled: 1
+    path: Assets/_Scenes/FaseAltar.unity
+    guid: efa58d1840f01e8468bf0c127315cb5e
