@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TeleportToriiInicio : MonoBehaviour {
+public class MudancaDeFase : MonoBehaviour {
 
 
 	// Use this for initialization
